@@ -21,3 +21,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/net v0.0.0-20211005001312-d4b1ae081e3b
 )
+
+replace github.com/pion/transport v0.12.3 => ../transport
+
+replace github.com/pion/interceptor v0.1.0 => ../interceptor
